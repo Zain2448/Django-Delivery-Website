@@ -62,7 +62,7 @@ class OrderDetail(LoginRequiredMixin, UserPassesTestMixin, View):
             'order': order
         }
 
-        return render(request, 'staff/order_overview.html', context)
+        return render(request, 'staff/order_details.html', context)
 
 
 
